@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f7f7f7;
+  margin: 0;
+}
+.warning {
+  padding: 10px 0;
+  background: #ffc4c6;
+  color: #a20606;
+  text-align: center;
+}
+
+.board {
+  margin: 10px auto;
+  padding: 8px 30px;
+  background: white;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 1px 1px 3px #e8e8e8;
+  border-radius: 5px;
+}
+
+.board__btn {
+  padding: 10px 30px;
+  border: 1px solid #c2dffb;
+  border-radius: 5px;
+  color: black;
+  background: white;
+  min-width: 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.board__nickname {
+  margin-bottom: 10px;
+}
+
+.board__nickname input {
+  border-color: rgb(172, 190, 241);
+  padding: 5px;
+}
+
+textarea {
+  border-color: rgb(172, 190, 241);
+  padding: 10px;
+  width: 100%;
+}
+
+.board__submit-btn {
+  padding: 4px;
+  border: 1px solid #c2dffb;
+  border-radius: 5px;
+  width:  100px;
+  margin: 10px 0;
+  color: #583c63;
+  font-size: 18px;
+  background: white;
+}
+
+.border__hr {
+  margin: 20px auto;
+  background: #e8e8e8;
+  height: 2px;
+  max-width: 95%;
+  margin-bottom: 10px;
+}
+
+.card {
+  margin: 20px 0;
+  min-height: 70px;
+  display: flex;
+}
+
+.card__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #e4f0fb;
+}
+
+/* flex: 1; 扣除另一個外佔所有剩下的空間 */
+.card__body {
+  margin-left: 8px;
+  flex: 1;
+}
+
+/* word-break: break-all; 防止跑版 */
+.card__content {
+  margin-top: 8px;
+  max-width: 100%;
+  word-break: break-all;
+  white-space: pre-line;
+}
+
+.card__info {
+  margin-top: 10px;
+}
+
+.card__author {
+  color: #5c9edc;
+  font-weight: bold;
+}
+
+.card__time {
+  color: #a0a0a0;
+  margin-left: 6px;
+}
+
+h2 {
+  color: #a20606;
+}
+
+.board_btn {
+  padding: 10px 30px;
+  border: 1px solid #c2dffb;
+  border-radius: 5px;
+  color:black;
+  font-size: 16px;
+  background: white;
+  min-width: 20px;
+  text-decoration: none;
+  display: inline;
+}
+
+.board__nickname-form {
+  margin-top: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.paginator {
+  display: flex;
+  justify-content: center;
+  margin:20px auto;
+}
+
+.paginator a {
+  text-decoration: none;
+  color: #5c9edc;
+  border: 1px solid #5c9edc;
+  padding: 10px;
+}
+
+.page_info {
+  text-align: center;
+}
+.default-style {
+  color: gray;
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+.select-form {
+  margin: 0 10px;
+}
+
+.admin-card {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 10px;
+}
